@@ -19,3 +19,19 @@ function agregarAmigo() {
         alert("Por favor, ingresa un nombre válido.");
     }
 }
+
+// Función para mostrar todos los amigos en la lista
+function mostrarAmigos() {
+    
+    const listaAmigos = document.getElementById("listaAmigos");
+
+    // Borrar los elementos previos de la lista
+    listaAmigos.innerHTML = "";
+
+     // Recorrer la lista de amigos y agregar un <li> por cada nombre
+    for (let i = 0; i < amigos.length; i++) {
+        const li = document.createElement("li");
+        li.textContent = amigos[i];
+        listaAmigos.appendChild(li);
+    }
+}
