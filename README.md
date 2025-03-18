@@ -1,7 +1,7 @@
 <h1>Reto Amigo Secreto</h1>
-¡Hola! 👋 Este es un proyecto que hice para practicar mis habilidades en programación con **JavaScript** y **HTML**. La idea es crear una página donde puedas agregar nombres de amigos, ver quiénes están en la lista, y luego hacer un sorteo para determinar quién es tu **amigo secreto**. ¡Una forma divertida de aprender mientras te entretienes!
+¡Hola! Este es un pequeño proyecto que hice para aprender a programar con JavaScript y HTML. La idea es tener una página web donde puedas agregar nombres de tus amigos, ver quiénes están en la lista, y hacer un sorteo para ver quién es tu "amigo secreto". Es una manera divertida de practicar mis habilidades de programación.
+Este proyecto es parte de un reto de Alura, una plataforma de aprendizaje que me está ayudando mucho a mejorar mis conocimientos de programación.
 
-Este proyecto es parte de un **desafío de Alura**, la plataforma donde estoy aprendiendo más sobre programación y mejorando mis conocimientos.
 - Estado del proyecto: Finalizado
 ---
 Qué hace este proyecto?
@@ -15,8 +15,8 @@ Este sitio web tiene tres funcionalidades principales que quiero compartir conti
 ---
 ## ¿Cómo lo hice?
 
-- **HTML**: Usé **HTML** para la estructura básica de la página web.
-- **CSS**: Con **CSS**, le di estilo y mejoré la apariencia del proyecto.
+- **HTML**
+- **CSS**
 - **JavaScript**: Implementé **JavaScript** para agregar amigos a la lista, mostrar la lista y hacer el sorteo del amigo secreto.
 ---
 
