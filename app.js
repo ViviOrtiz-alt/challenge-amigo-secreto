@@ -44,6 +44,11 @@ function sortearAmigo() {
         const indiceAleatorio = Math.floor(Math.random() * amigos.length);
 
         const amigoSorteado = amigos[indiceAleatorio];
-        
+
+         // Mostrar resultado
+        const resultado = document.getElementById("resultado");
+        resultado.innerHTML = `¡El amigo secreto es: ${amigoSorteado}!`;
+    } else {
+        alert("No hay amigos en la lista. Agrega algunos antes de sortear.");
     }
 }
