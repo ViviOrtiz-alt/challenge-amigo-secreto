@@ -35,3 +35,15 @@ function mostrarAmigos() {
         listaAmigos.appendChild(li);
     }
 }
+
+// Función para realizar el sorteo de los amigos secretos
+function sortearAmigo() {
+    // Verificar si hay amigos registrados en la lista
+    if (amigos.length > 0) {
+        // Generar un número aleatorio para seleccionar un amigo
+        const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+
+        const amigoSorteado = amigos[indiceAleatorio];
+        
+    }
+}
